@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return Configuration(
 
       taskList: [
-        Items(name: "Bücher", done: false),
+        Items(name: "Idioten", done: false),
         Items(name: "Zwiebel", done: false),
         Items(name: "Getränke", done: false),
         Items(name: "Stifte", done: false),],
