@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "49ee83aefd356788abd312cc9c2ec87b41abfaa7dd2de76ff8c6d9e74cd230b4"
+build_start_time: [1689149652, 234033107]
+build_end_time: [1689149664, 315679073]
+inputs:
+  "/Users/saverba/Documents/private/flutter_thesis_todo_app/macos/Flutter/GeneratedPluginRegistrant.swift": [1689149637, 577526330]
+  "/Users/saverba/Documents/private/flutter_thesis_todo_app/macos/Runner/AppDelegate.swift": [1686756961, 0]
+  "/Users/saverba/Documents/private/flutter_thesis_todo_app/macos/Runner/MainFlutterWindow.swift": [1686756961, 0]

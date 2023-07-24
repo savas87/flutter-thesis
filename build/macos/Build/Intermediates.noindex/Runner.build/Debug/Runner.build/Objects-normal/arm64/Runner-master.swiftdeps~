@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
-options: "d74bb68a8d2213f99f499a3b8a2ee380c01029acd8418b4696f5090ac3bf8aa6"
-build_start_time: [1684246191, 498674000]
-build_end_time: [1684246191, 557505000]
-inputs:
-  "/Users/melisaunsal/taskify_app/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1684246179, 435710822]
-  "/Users/melisaunsal/taskify_app/macos/Runner/AppDelegate.swift": !private [1681949587, 0]
-  "/Users/melisaunsal/taskify_app/macos/Runner/MainFlutterWindow.swift": !private [1681949587, 0]
