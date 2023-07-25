@@ -77,8 +77,8 @@ class _TodoListState extends State<TodoList> {
                       ],
                       SlidableAction(
                         flex: 2,
-                        onPressed: (context) {
-                          () => Routing().navigateToEditTodo(item, '', context);
+                        onPressed: (context) async {
+                          Routing().navigateToEditTodo(item, '', context);
                         },
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
