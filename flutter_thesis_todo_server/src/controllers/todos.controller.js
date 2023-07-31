@@ -13,13 +13,15 @@ const getAllTodos = async (req,res) => {
 }
 
 const createTodo = (req, res) => {
-    const { title, description, createdBy } = req.body;
+    const { title, description, createdBy, place, date } = req.body;
 
     var toDoAdd = new models.Todo({
         title: title,
         description: description,
         createdBy: createdBy,
-        completed: false
+        completed: false,
+        place: place,
+        date: date
     });
     
     toDoAdd.save().then((todo) => res.status(201).json({message: 'Todo wurde erstellt', todo}))
@@ -41,7 +43,7 @@ const deleteTodo = async (req, res) => {
 
 const updateTodo = async(req, res) => {
     const { todoId } = req.params;
-    const { title, description, createdBy, completed } = req.body;
+    const { title, description, createdBy, completed, place, date } = req.body;
     try {
         const updatedTodo = await models.Todo.findByIdAndUpdate(
           todoId,
@@ -50,6 +52,8 @@ const updateTodo = async(req, res) => {
             description,
             createdBy,
             completed,
+            place,
+            date
           },
           { new: true }
         );

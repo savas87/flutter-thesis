@@ -260,6 +260,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "textfield_datepicker",
+      "rootUri": "file:///Users/saverba/.pub-cache/hosted/pub.dev/textfield_datepicker-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "typed_data",
       "rootUri": "file:///Users/saverba/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
       "packageUri": "lib/",
@@ -290,7 +296,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-07-24T10:51:30.692637Z",
+  "generated": "2023-07-30T14:54:17.126740Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }

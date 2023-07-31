@@ -114,8 +114,49 @@ class _TodoListState extends State<TodoList> {
                               )
                             : null,
                       ),
-                      subtitle: Text(item['description']),
-                      trailing: Text(formatDate(item['createAt'])),
+                      subtitle: Column(children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              children: [
+                                Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(item['description']),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        const SizedBox(
+                          height: 10,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              children: [
+                                const Icon(Icons.place),
+                                const SizedBox(width: 8),
+                                Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(item['place']),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                const Icon(Icons.calendar_today),
+                                const SizedBox(width: 8),
+                                Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(item['date']),
+                                ),
+                              ],
+                            )
+                          ],
+                        )
+                      ]),
                     ),
                   ),
                 );
